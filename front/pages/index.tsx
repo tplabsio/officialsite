@@ -26,8 +26,8 @@ export default function Home() {
               style={{ marginTop: 2 }}
               src="/logo.png"
               alt="logo"
-              width={256}
-              height={57}
+              width={200}
+              height={40}
             />
           </Link>
           <Dropdown
@@ -193,7 +193,7 @@ export default function Home() {
                   <a className={styles.infoContent} href="#">{lang.infoContentEmail}: hi@tplabs.io</a>
                 </li>
                 <li className={styles.infoItem}>
-                  <a className={styles.infoContent} href="#">{lang.infoContentTwitter}: @tplabsio</a>
+                  <a className={styles.infoContent} href="https://twitter.com/tplabsio">{lang.infoContentTwitter}: @tplabsio</a>
                 </li>
               </ul>
             </div>
@@ -202,7 +202,7 @@ export default function Home() {
         <div className={styles.divider} />
         <div className={styles.copyright}>
           <Image src="/logo.png" alt="icon" width={128} height={28} style={{ marginRight: 6 }} />
-          <span>© 2022 - 2022 Tplabs.com. All rights reserved</span>
+          <span>© 2019 - 2022 tplabs.io All rights reserved</span>
         </div>
       </footer>
     </div>
