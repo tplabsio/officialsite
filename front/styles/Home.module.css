@@ -1,0 +1,396 @@
+.contentWidth {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mainColor {
+  color: #675BF5;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: rgba(0,0,0,.4);
+  z-index: 100;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  composes: contentWidth;
+}
+
+.langSelect {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-right: 18px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.langSelect::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 0;
+  border: 4px solid transparent;
+  border-top-color: #fff;
+  transform-origin: 4px 2px;
+  transition: transform .3s;
+}
+
+.langSelectText {
+  margin-left: 6px;
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: #1e2126;
+  border-radius: 1px;
+  width: 108px;
+}
+
+:global(.rc-dropdown-hidden) .overlay {
+  display: none;
+}
+
+.langOption {
+  padding: 0 16px;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+.langOption:hover {
+  background: #373737;
+  color: #675BF5;
+}
+
+.sectionOne {
+  background: 50%/auto 100% no-repeat #323232 url(https://statictc.oss-cn-hangzhou.aliyuncs.com/binance_cloud/static/homepage/bg1.jpg?v=1);
+  height: 600px;
+  text-align: center;
+  padding-top: 180px;
+}
+
+.title {
+  font-size: 46px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  line-height: 65px;
+  margin: 0 0 14px;
+  composes: mainColor;
+}
+
+:global(.en) .title {
+  letter-spacing: 0;
+}
+
+.slogan {
+  color: #fff;
+  font-size: 36px;
+  letter-spacing: 2.6px;
+  line-height: 50px;
+}
+
+:global(.en) .slogan {
+  letter-spacing: 0;
+}
+
+.supplement {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+  composes: mainColor;
+}
+
+.useButton {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(-26deg,#675BF5,#766cef);
+  border-radius: 4px;
+  color: #f0f0e5;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  min-width: 180px;
+  height: 40px;
+  padding: 0 20px;
+  margin-top: 105px;
+}
+
+:global(.en) .useButton {
+  letter-spacing: 0;
+}
+
+.sectionTwo {
+  background: 50%/auto 100% no-repeat #171717 url(https://statictc.oss-cn-hangzhou.aliyuncs.com/binance_cloud/static/homepage/bg2.jpg);
+}
+
+.whyTitle {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 0 10px;
+  padding-top: 60px;
+  composes: mainColor;
+}
+
+.whyList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.whyContent {
+  width: 230px;
+}
+
+.whyIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.whyContentTitle {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  composes: mainColor;
+}
+
+.whyDescSlogan {
+  color: #f5f6f9;
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.whyContentDesc {
+  font-size: 14px;
+  margin-top: 35px;
+  color: #f5f6f9;
+  line-height: 1.4;
+}
+
+.sectionThree {
+  position: relative;
+  background-color: #0d0d0d;
+  padding-bottom: 80px;
+}
+
+.solutionTitle {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 0 10px;
+  padding-top: 60px;
+  composes: mainColor;
+}
+
+.swiper {
+  padding: 60px 0!important;
+}
+
+.swiper :global(.swiper-pagination-bullet) {
+  border: 1px solid #FFFFFF;
+}
+
+.swiper :global(.swiper-pagination-bullet-active) {
+  background-color: #675BF5;
+  border: none;
+}
+
+.swiperCard {
+  background: #1f1f1f;
+  box-shadow: 0 0 50px 0 rgb(0 0 0 / 26%);
+  border-radius: 4px;
+  color: #9b9da8;
+  font-size: 14px;
+  width: 420px;
+  height: 220px;
+  text-align: center;
+  padding: 0 38px;
+  transform: scale(0.8) !important;
+  transition: 0.3s;
+}
+
+.swiperCard:global(.swiper-slide-active) {
+  background: #766cef;
+  box-shadow: 0 0 50px 0 rgb(103 91 245 / 57%);
+  color: #FFFFFF;
+  transform: scale(1) !important;
+}
+
+.solutionIcon {
+  margin: 20px 0 10px;
+}
+
+.solutionContentTitle {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+
+.solutionContentDesc {
+  line-height: 1.5;
+}
+
+.sectionFour {
+  background-image: url(/world.jpg);
+  background-color: #323232;
+  background-size: auto 100%;
+  background-position: 50%;
+  height: 666px;
+}
+
+.customerTitle {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 0 10px;
+  padding-top: 60px;
+  composes: mainColor;
+}
+
+.customerDesc {
+  font-size: 14px;
+  color: #f5f6f9;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+:global(.en) .customerDesc {
+  letter-spacing: 0;
+  margin: 0 auto;
+  width: 550px;
+}
+
+.sectionFive {
+  background-color: #121212;
+  padding-bottom: 80px;
+}
+
+.startTitle {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 0 10px;
+  padding-top: 60px;
+  composes: mainColor;
+}
+
+.startContent {
+  position: relative;
+  margin: 80px 0 0;
+}
+
+.startList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.startItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  composes: mainColor;
+}
+
+.startNumber {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #766cef;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+  z-index: 1;
+}
+
+.startStep {
+  font-size: 20px;
+  font-weight: 500;
+  composes: mainColor;
+}
+
+.startDesc {
+  color: #f5f6f9;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 24px;
+  max-width: 240px;
+  text-align: justify;
+}
+
+.footer {
+  background-color: #1b1b1b;
+  padding-top: 34px;
+}
+
+.moreInfo {
+  display: flex;
+  flex: 1;
+  margin-bottom: 34px;
+}
+
+.infoTitle {
+  color: #f5f6f9;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+.infoList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.infoContent {
+  color: #9b9da8;
+  font-size: 12px;
+}
+
+.divider {
+  border-top: 1px solid rgba(155,157,168,.5);
+  min-width: 1368px;
+  margin: 0 auto;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  color: #9b9da8;
+  font-size: 12px;
+  line-height: 66px;
+  composes: contentWidth;
+}

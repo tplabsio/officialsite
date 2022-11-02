@@ -1,0 +1,160 @@
+.contentWidth {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mainColor {
+  color: #675BF5;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: rgba(0,0,0,.4);
+  z-index: 100;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  composes: contentWidth;
+}
+
+.langSelect {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-right: 18px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.langSelect::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 0;
+  border: 4px solid transparent;
+  border-top-color: #fff;
+  transform-origin: 4px 2px;
+  transition: transform .3s;
+}
+
+.langSelectText {
+  margin-left: 6px;
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: #1e2126;
+  border-radius: 1px;
+  width: 108px;
+}
+
+:global(.rc-dropdown-hidden) .overlay {
+  display: none;
+}
+
+.langOption {
+  padding: 0 16px;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+.langOption:hover {
+  background: #373737;
+  color: #675BF5;
+}
+
+.main {
+  background: #121212;
+  padding: 144px 0 112px;
+}
+
+.title {
+  composes: mainColor;
+}
+
+.contentList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.content {
+  margin-bottom: 64px;
+}
+
+.contentTitle {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  composes: mainColor;
+}
+
+.contentText {
+  color: #f5f6f9;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.footer {
+  background-color: #1b1b1b;
+  padding-top: 34px;
+}
+
+.moreInfo {
+  display: flex;
+  flex: 1;
+  margin-bottom: 34px;
+}
+
+.infoTitle {
+  color: #f5f6f9;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+.infoList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.infoContent {
+  color: #9b9da8;
+  font-size: 12px;
+}
+
+.divider {
+  border-top: 1px solid rgba(155,157,168,.5);
+  min-width: 1368px;
+  margin: 0 auto;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  color: #9b9da8;
+  font-size: 12px;
+  line-height: 66px;
+  composes: contentWidth;
+}
