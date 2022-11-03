@@ -92,7 +92,7 @@ export default function Home() {
                 </p>
                 <p className={styles.whyContentDesc}>{lang.whyContentDescThree}</p>
               </li>
-              <li className={styles.whyContent}>
+              {/* <li className={styles.whyContent}>
                 <div className={styles.whyIcon}>
                   <Image src="/icon1.png" alt="icon" width={100} height={75} />
                 </div>
@@ -101,7 +101,7 @@ export default function Home() {
                   <i>DescTwo4</i>
                 </p>
                 <p className={styles.whyContentDesc}>DescThree4</p>
-              </li>
+              </li> */}
             </ul>
           </div>
         </section>
