@@ -80,7 +80,7 @@ export default function Home() {
                 <p className={styles.whyDescSlogan}>
                   <i>{lang.whyDescSloganTwo}</i>
                 </p>
-                <p className={styles.whyContentDesc}>{lang.whyContentDescOne}</p>
+                <p className={styles.whyContentDesc}>{lang.whyContentDescTwo}</p>
               </li>
               <li className={styles.whyContent}>
                 <div className={styles.whyIcon}>
