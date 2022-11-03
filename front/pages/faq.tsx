@@ -69,7 +69,7 @@ export default function Faq() {
       <footer className={styles.footer}>
         <div className={styles.contentWidth} style={{ display: 'flex' }}>
           <div className={styles.moreInfo}>
-            <div style={{ width: 160 }}>
+            <div style={{ width: 120 }}>
               <div className={styles.infoTitle}>{lang.infoTitleOne}</div>
               <ul className={styles.infoList}>
                 <li className={styles.infoItem}>
@@ -77,7 +77,7 @@ export default function Faq() {
                 </li>
               </ul>
             </div>
-            <div style={{ width: 300 }}>
+            <div style={{ width: 120 }}>
               <div className={styles.infoTitle}>{lang.infoTitleTwo}</div>
               <ul className={styles.infoList}>
                 <li className={styles.infoItem}>

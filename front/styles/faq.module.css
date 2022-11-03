@@ -116,6 +116,7 @@
 
 .moreInfo {
   display: flex;
+  justify-content: center;
   flex: 1;
   margin-bottom: 34px;
 }
@@ -153,6 +154,7 @@
 .copyright {
   display: flex;
   align-items: center;
+  justify-content: center;
   color: #9b9da8;
   font-size: 12px;
   line-height: 66px;
