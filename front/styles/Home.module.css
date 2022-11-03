@@ -165,7 +165,8 @@
 .whyContentTitle {
   font-size: 22px;
   line-height: 1.4;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
+  padding-top: 10px;
   composes: mainColor;
 }
 

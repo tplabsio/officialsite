@@ -9,7 +9,7 @@ const langData: Record<string, object> = {
     whyContentTitleOne: "Technology",
     whyDescSloganOne: "",
     whyContentDescOne: "More than 10 years of technical capability accumulation.",
-    whyContentTitleTwo: "Security",
+    whyContentTitleTwo: "Data Security",
     whyDescSloganTwo: "",
     whyContentDescTwo: "Trust and support from more than 200 enterprise customers, Protect data security.",
     whyContentTitleThree: "Performance",

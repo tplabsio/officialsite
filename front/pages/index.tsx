@@ -64,7 +64,7 @@ export default function Home() {
             <ul className={styles.whyList}>
               <li className={styles.whyContent}>
                 <div className={styles.whyIcon}>
-                  <Image src="/icon1.png" alt="icon" width={100} height={75} />
+                  <Image src="/technology_page-bits.svg" alt="icon" width={100} height={75} />
                 </div>
                 <div className={styles.whyContentTitle}>{lang.whyContentTitleOne}</div>
                 <p className={styles.whyDescSlogan}>
@@ -74,7 +74,7 @@ export default function Home() {
               </li>
               <li className={styles.whyContent}>
                 <div className={styles.whyIcon}>
-                  <Image src="/icon1.png" alt="icon" width={100} height={75} />
+                  <Image src="/Security.svg" alt="icon" width={100} height={75} />
                 </div>
                 <div className={styles.whyContentTitle}>{lang.whyContentTitleTwo}</div>
                 <p className={styles.whyDescSlogan}>
@@ -84,7 +84,7 @@ export default function Home() {
               </li>
               <li className={styles.whyContent}>
                 <div className={styles.whyIcon}>
-                  <Image src="/icon1.png" alt="icon" width={100} height={75} />
+                  <Image src="/performance.svg" alt="icon" width={100} height={75} />
                 </div>
                 <div className={styles.whyContentTitle}>{lang.whyContentTitleThree}</div>
                 <p className={styles.whyDescSlogan}>
