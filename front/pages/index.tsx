@@ -74,7 +74,7 @@ export default function Home() {
               </li>
               <li className={styles.whyContent}>
                 <div className={styles.whyIcon}>
-                  <Image src="/Security.svg" alt="icon" width={100} height={75} />
+                  <Image src="/security.svg" alt="icon" width={100} height={75} />
                 </div>
                 <div className={styles.whyContentTitle}>{lang.whyContentTitleTwo}</div>
                 <p className={styles.whyDescSlogan}>
