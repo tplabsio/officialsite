@@ -53,7 +53,7 @@ export default function Home() {
             <h1 className={styles.title}>{lang.title}</h1>
             <div className={styles.slogan}>{lang.slogan}</div>
             <p className={styles.supplement}>{lang.supplement}</p>
-            <a className={styles.useButton} href="#" target="_blank">
+            <a className={styles.useButton} href="https://twitter.com/tplabsio" target="_blank">
               <span>{lang.try}</span>
             </a>
           </div>
@@ -122,17 +122,17 @@ export default function Home() {
               modules={[Pagination]}
             >
               <SwiperSlide className={styles.swiperCard}>
-                <Image className={styles.solutionIcon} src="/favicon.ico" alt="icon" width={50} height={50} />
+                <Image className={styles.solutionIcon} src="/Storage-server.svg" alt="icon" width={50} height={50} />
                 <div className={styles.solutionContentTitle}>{lang.solutionContentTitleOne}</div>
                 <p className={styles.solutionContentDesc}>{lang.solutionContentDescOne}</p>
               </SwiperSlide>
               <SwiperSlide className={styles.swiperCard}>
-                <Image className={styles.solutionIcon} src="/favicon.ico" alt="icon" width={50} height={50} />
+                <Image className={styles.solutionIcon} src="/Computing-chip.svg" alt="icon" width={50} height={50} />
                 <div className={styles.solutionContentTitle}>{lang.solutionContentTitleTwo}</div>
                 <p className={styles.solutionContentDesc}>{lang.solutionContentDescTwo}</p>
               </SwiperSlide>
               <SwiperSlide className={styles.swiperCard}>
-                <Image className={styles.solutionIcon} src="/favicon.ico" alt="icon" width={50} height={50} />
+                <Image className={styles.solutionIcon} src="/IaaS-servers.svg" alt="icon" width={50} height={50} />
                 <div className={styles.solutionContentTitle}>{lang.solutionContentTitleThree}</div>
                 <p className={styles.solutionContentDesc}>{lang.solutionContentDescThree}</p>
               </SwiperSlide>

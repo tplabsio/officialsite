@@ -75,7 +75,7 @@
 }
 
 .sectionOne {
-  background: 50%/auto 100% no-repeat #323232 url(https://statictc.oss-cn-hangzhou.aliyuncs.com/binance_cloud/static/homepage/bg1.jpg?v=1);
+  background: 50%/auto 100% no-repeat #323232 url(/bg1.jpg);
   height: 600px;
   text-align: center;
   padding-top: 180px;
@@ -133,7 +133,7 @@
 }
 
 .sectionTwo {
-  background: 50%/auto 100% no-repeat #171717 url(https://statictc.oss-cn-hangzhou.aliyuncs.com/binance_cloud/static/homepage/bg2.jpg);
+  background: 50%/auto 100% no-repeat #171717 url(/bg2.jpg);
 }
 
 .whyTitle {
