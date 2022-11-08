@@ -18,7 +18,7 @@ export default function Home() {
   const lang: any = locale ? langData[locale] : langData["en"]
 
   return (
-    <div className={`${lang} ${styles.wrapper}`}>
+    <div className={[styles.wrapper, locale].join(' ')}>
       <header className={styles.header}>
         <div className={styles.headerContainer}>
           <Link href="/" locale={locale}>

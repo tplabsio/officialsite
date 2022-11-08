@@ -7,6 +7,13 @@
   color:#675BF5;
 }
 
+.wrapper {
+  width: 100%;
+  height: 100%;
+  min-width: 1368px;
+  position: relative;
+}
+
 .header {
   position: absolute;
   top: 0;
