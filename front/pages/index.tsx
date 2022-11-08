@@ -202,7 +202,7 @@ export default function Home() {
         <div className={styles.divider} />
         <div className={styles.copyright}>
           <Image src="/logo.png" alt="icon" width={128} height={28} style={{ marginRight: 6 }} />
-          <span>© 2019 - 2022 tplabs.io All rights reserved</span>
+          <span>© 2019 - 2022 tplabs.io All Rights reserved</span>
         </div>
       </footer>
     </div>
